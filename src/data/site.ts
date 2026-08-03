@@ -40,17 +40,21 @@ export const siteConfig: SiteConfig = {
     { label: "Contact", href: "/contact" },
   ],
   socialLinks: [
-    { platform: "GitHub", href: "[EDITABLE: https://github.com/yourusername]", label: "GitHub profile" },
-    { platform: "LinkedIn", href: "[EDITABLE: https://linkedin.com/in/yourusername]", label: "LinkedIn profile" },
+    { platform: "GitHub", href: "https://github.com/jahid-cr7", label: "GitHub profile" },
+    { platform: "LinkedIn", href: "https://linkedin.com/in/jahid4911", label: "LinkedIn profile" },
   ],
   education: [
     {
       level: "High School",
       institution: "Nakla Pilot Model High School",
+      location: "Nakla, Sherpur",
+      graduationYear: 2019,
     },
     {
       level: "Intermediate College",
       institution: "Notre Dame College Mymensingh",
+      location: "Barera, Mymensingh Sadar, Mymensingh",
+      graduationYear: 2021,
     },
     {
       level: "University",

@@ -30,7 +30,7 @@ export function ProjectMeta({ project }: ProjectMetaProps) {
           Year
         </span>
         <span className="font-mono text-xs text-foreground-muted">
-          {new Date().getFullYear()}
+          {project.year ?? new Date().getFullYear()}
         </span>
       </div>
     </div>

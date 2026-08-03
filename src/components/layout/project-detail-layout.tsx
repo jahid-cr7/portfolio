@@ -91,14 +91,16 @@ export function ProjectDetailLayout({
                     GitHub Repository
                   </ExternalLink>
                 </span>
-                <span data-cursor="OPEN">
-                  <ExternalLink
-                    href={project.liveDemo}
-                    className="font-mono text-xs text-foreground-muted"
-                  >
-                    Live Demo
-                  </ExternalLink>
-                </span>
+                {project.liveDemo !== "#" && !project.liveDemo.startsWith("[EDITABLE") && (
+                  <span data-cursor="OPEN">
+                    <ExternalLink
+                      href={project.liveDemo}
+                      className="font-mono text-xs text-foreground-muted"
+                    >
+                      Live Demo
+                    </ExternalLink>
+                  </span>
+                )}
               </div>
             </aside>
           </div>

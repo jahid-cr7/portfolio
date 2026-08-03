@@ -57,4 +57,5 @@ export interface Project {
   github: string;
   liveDemo: string;
   featured: boolean;
+  year?: number;
 }

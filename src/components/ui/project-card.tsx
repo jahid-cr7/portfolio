@@ -17,7 +17,7 @@ interface ProjectCardProps {
 }
 
 function isPlaceholder(value: string): boolean {
-  return value.startsWith("[EDITABLE");
+  return value.startsWith("[EDITABLE") || value === "#";
 }
 
 const directionInitial: Record<ProjectCardDirection, { x?: number; y?: number }> = {

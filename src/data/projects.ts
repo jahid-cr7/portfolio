@@ -84,7 +84,8 @@ export const projects: Project[] = [
     image: "/images/projects/nyc-taxi-services-card.png",
     heroImage: "/images/projects/nyc-taxi-services-detail.png",
     github: "https://github.com/jahid-cr7/NYC_Taxi_Services",
-    liveDemo: "[EDITABLE: Live demo URL]",
+    liveDemo: "#",
     featured: true,
+    year: 2025,
   },
 ];
