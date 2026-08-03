@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0B0D0B"/>
+  <rect x="80" y="80" width="1040" height="470" fill="none" stroke="#2A2E2A" stroke-width="2"/>
+  <line x1="80" y1="80" x2="1120" y2="550" stroke="#2A2E2A" stroke-width="1" opacity="0.3"/>
+  <line x1="1120" y1="80" x2="80" y2="550" stroke="#2A2E2A" stroke-width="1" opacity="0.3"/>
+  <text x="600" y="290" font-family="monospace" font-size="48" fill="#F1EFE9" text-anchor="middle" font-weight="600">JAHID.</text>
+  <text x="600" y="350" font-family="monospace" font-size="20" fill="#A5A29A" text-anchor="middle">Full-Stack AI Developer</text>
+  <rect x="540" y="390" width="120" height="3" fill="#FF5A3C" opacity="0.8"/>
+</svg>
